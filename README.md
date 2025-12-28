@@ -2,6 +2,9 @@
 
 A React-based utility application designed to help shooting sports enthusiasts and dry fire practitioners convert real-world target scenarios into scaled-down dry fire versions for home practice.
 
+<img width="1494" height="962" alt="image" src="https://github.com/user-attachments/assets/a0874b45-3c8a-4915-a55c-c4bfeaf8a577" />
+
+
 ## Features
 
 - Dual Modes:
@@ -64,19 +67,12 @@ dry-fire-scaler/
 ## Usage
 
 1. Select Mode: Use the toggle at the top to switch between "Scale Down" and "Scale Up".
-
 2. Set Dry Fire Environment: Enter the distance from your standing position to your wall/target stand (e.g., 10 ft).
-
 3. Input Data:
-
   - In Scale Down, choose a target preset (e.g., "IPSC Classic") and the real-world distance you want to simulate (e.g., 25 yds).
-
   - In Scale Up, enter the size of the sticker/target you have on your wall.
-
 4. View Results:
-
   - Scale Down shows you the exact dimensions to print or cut your target to, along with a visual preview.
-
   - Scale Up provides a table showing equivalent target sizes at standard range distances.
 
 ## License
