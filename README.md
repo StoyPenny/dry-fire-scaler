@@ -50,6 +50,30 @@ Open your browser and navigate to the URL shown (usually http://localhost:5173).
 npm run build
 ```
 
+## Docker
+
+### Prerequisites
+- Docker
+- Docker Compose
+
+### Development (hot reload)
+```bash
+docker compose up dev
+```
+Open http://localhost:42864.
+
+If you access the dev server via a custom hostname (for example through Tailscale), create a `.env.local` file and set allowed hosts:
+```bash
+VITE_ALLOWED_HOSTS=my-network.tail09f13.ts.net
+```
+You can also provide multiple hosts separated by commas.
+
+### Production (static build)
+```bash
+docker compose up --build prod
+```
+Open http://localhost:8080.
+
 ## Project Structure
 ```
 dry-fire-scaler/

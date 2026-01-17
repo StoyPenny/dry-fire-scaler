@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+dist
+.vite
+.git
+.gitignore
+Dockerfile
+README.md
+
+.env
+.DS_Store
+
+# Vite cache
+tmp
